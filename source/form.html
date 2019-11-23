@@ -31,8 +31,103 @@
     <main class="page-main">
       <section class="contest">
         <h1 class="contest__title">Конкурс на самое безбашенное путешествие с Пинк</h1>
+        <b class="contest__intro">Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</b>
         <form class="contest__form form" action="https://echo.htmlacademy.ru" method="post">
-
+          <fieldset class="form__group">
+            <label class="form__item">
+              Фамилия:
+              <input type="text" value="" placeholder="Укажите фамилию *">
+            </label>
+            <label class="form__item">
+              Имя:
+              <input type="text" value="" placeholder="Введите ваше имя *">
+            </label>
+            <label class="form__item">
+              Отчество:
+              <input type="text" value="" placeholder="Ну и отчество тоже">
+            </label>
+          </fieldset>
+          <fieldset class="form__group">
+            <legend class="form__title">Ваши безбашенные достижения в путешествии</legend>
+            <ul class="form__list">
+              <li class="form__item">
+                <input id="check-1" type="checkbox" name="" value="" checked>
+                <label for="check-1">
+                  Сделал селфи с акулой
+                </label>
+              </li>
+              <li class="form__item">
+                <input id="check-2" type="checkbox" name="" value="" checked>
+                <label for="check-2">
+                  Обгорел на пляже
+                </label>
+              </li>
+              <li class="form__item">
+                <input id="check-3" type="checkbox" name="" value="">
+                <label for="check-3">
+                    Видел Чака Норриса
+                </label>
+              </li>
+              <li class="form__item">
+                <input id="check-4" type="checkbox" name="" value="">
+                <label for="check-4">
+                  Накупил сувениров
+                </label>
+              </li>
+              <li class="form__item">
+                <input id="check-5" type="checkbox" name="" value="" checked>
+                <label for="check-5">
+                    Удержал башню
+                </label>
+              </li>
+              <li class="form__item">
+                <input id="check-6" type="checkbox" name="" value="">
+                <label for="check-6">
+                    Разгромил отель
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="form__group">
+            <legend class="visually-hidden">Контактная информация</legend>
+            <label class="form__item">
+              Номер телефона
+              <input type="tel" value="" placeholder="Номер, пожалуйста">
+            </label>
+            <label class="form__item">
+              Адрес почты
+              <input type="email" value="" placeholder="Введите почту *">
+            </label>
+          </fieldset>
+          <fieldset class="form__group">
+            <legend class="form__title">С каким приложением путешествовали?</legend>
+            <ul class="form__list">
+              <li class="form__item">
+                <input id="radio-1" type="radio" name="app-type" value="ios" checked>
+                <label for="radio-1">
+                    Pink для iOS
+                </label>
+              </li>
+              <li class="form__item">
+                <input id="radio-2" type="radio" name="app-type" value="android">
+                <label for="radio-2">
+                    Pink на Android
+                </label>
+              </li>
+              <li class="form__item">
+                <input id="radio-3" type="radio" name="app-type" value="windows">
+                <label for="radio-3">
+                    Windows Phone
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="form__group">
+            <legend class="form__title">Опишите свои эмоции</legend>
+            <textarea class="form__item" name="" rows="8" cols="80" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+          </fieldset>
+          <button class="form__btn" type="submit" name="button">Отправить форму</button>
+          <b class="form__info">* - обязательные поля</b>
         </form>
       </section>
     </main>
