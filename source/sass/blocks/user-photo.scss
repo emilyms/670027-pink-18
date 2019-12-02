@@ -1,0 +1,50 @@
+.user-photo {
+  margin: 0;
+  padding: 0;
+
+  color: $blue-color;
+
+  list-style: none;
+}
+
+.user-photo__item {
+  margin: 20px;
+
+  background-color: $grey-bg;
+}
+
+.user-photo__wrapper {
+  padding: 20px;
+}
+
+.user-photo__name {
+  font-family: $bold-font;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.user-photo__time {
+  font-family: $light-font;
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.user-photo__text {
+  margin: 0;
+  padding: 0;
+
+  font-family: $main-font;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.user-photo__like {
+  font-family: $main-font;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $pink-color;
+}
