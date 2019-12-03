@@ -1,60 +1,14 @@
-@fontface {
-  font-family: 'Open Sans';
-  src: local('OpenSansRegular'),
-      url('../fonts/opensans.woff2') format('woff2'),
-      url('../fonts/opensans.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@fontface {
-  font-family: 'Open Sans Bold';
-  src: local('OpenSansBold'),
-      url('../fonts/opensansbold.woff2') format('woff2'),
-      url('../fonts/opensansbold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@fontface {
-  font-family: 'Open Sans Light';
-  src: url('../fonts/opensanslight.woff2') format('woff2'),
-      url('../fonts/opensanslight.woff') format('woff');
-  font-weight: lighter;
-  font-style: normal;
-}
-
+@import 'fonts.scss';
 @import 'globals.scss';
 @import 'blocks/page-header.scss';
 @import 'blocks/main-nav.scss';
 @import 'blocks/site-menu.scss';
 @import 'blocks/page-main.scss';
 @import 'blocks/download-app.scss';
+@import 'blocks/btn.scss';
 @import 'blocks/app-list.scss';
 @import 'blocks/advantages.scss';
 @import 'blocks/page-footer.scss';
 @import 'blocks/social.scss';
 @import 'blocks/photo-gallery.scss';
 @import 'blocks/user-photo.scss';
-
-body {
-  margin: 0;
-
-  font-family: $main-font;
-}
-
-.visually-hidden:not(:focus):not(:active) {
-  position: absolute;
-
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
