@@ -1,0 +1,42 @@
+.plans {
+  background-color: $grey-bg;
+}
+
+.plans__list {
+  padding: 40px 20px;
+}
+
+.plans__list thead {
+  background-color: $blue-color;
+}
+
+.plans__list tbody {
+  background-color: white;
+}
+
+.plans__title {
+  padding: 20px;
+
+  font-family: $bold-font;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.plans__price {
+  font-family: $light-font;
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+.plans__field {
+  padding: 20px;
+
+  font-family: $main-font;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: $blue-color;
+}
