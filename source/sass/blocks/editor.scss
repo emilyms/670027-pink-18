@@ -1,0 +1,48 @@
+.editor {
+  text-align: center;
+  background-color: $grey-bg;
+}
+
+.editor__intro {
+  padding: 20px;
+  display: block;
+
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: $blue-color;
+
+  background-color: white;
+}
+
+.editor__wrapper {
+  padding: 20px;
+}
+
+.editor__img-wrapper {
+  padding: 20px;
+}
+
+.editor__img {
+  display: block;
+  margin: auto;
+}
+
+.editor__tools {
+  padding: 0 30px 20px;
+}
+
+.editor__scale {
+  padding: 10px;
+}
+
+.editor__controls {
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
+.editor__control-btn {
+  display: block;
+  margin: 5px auto;
+}
