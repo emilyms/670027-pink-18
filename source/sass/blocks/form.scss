@@ -1,0 +1,108 @@
+.form__group {
+  margin: 0;
+  padding: 20px;
+
+  border: none;
+
+  &:nth-child(2n) {
+    background-color: $grey-bg;
+  }
+}
+
+.form__group ::placeholder {
+  font-family: $main-font;
+  font-size: 18px;
+  line-height: 30px;
+  color: $blue-color;
+}
+
+.form__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.form__item {
+  padding: 20px 0;
+}
+
+.form__label {
+  display: block;
+  padding: 10px 0;
+
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: $pink-color;
+}
+
+.form__input {
+  display: block;
+  margin: 10px 0;
+  padding: 20px;
+  width: 240px;
+}
+
+.form__title {
+  padding: 40px 20px 20px;
+  width: 100%;
+
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $pink-color;
+
+  background-color: inherit;
+}
+
+.form__name {
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: $blue-color;
+}
+
+.form__text {
+  padding: 20px;
+  width: 240px;
+}
+
+.form__btn {
+  margin: 20px;
+  padding: 20px;
+  width: 280px;
+
+  font-family: $bold-font;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: white;
+
+  background-color: $green-color;
+  border: none;
+  border-radius: 3px;
+}
+
+.form__info {
+  display: block;
+  padding: 20px;
+
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: $blue-color;
+
+  & span {
+    color: $pink-color;
+  }
+}
