@@ -40,12 +40,14 @@
     width: 300px;
     min-height: 330px;
   }
+
   .intro--index {
     width: 620px;
     min-height: 619px;
 
     background-image: url("../img/iphone-hand-tablet@1x.png");
   }
+
   .intro__wrapper {
     min-height: 240px;
     margin: 0;
@@ -57,15 +59,18 @@
   .intro {
     min-height: 280px;
   }
+
   .intro--index {
     width: 940px;
     min-height: 740px;
 
     background-image: url("../img/iphone-hand-desktop@1x.png");
   }
+
   .intro__wrapper {
     min-height: 300px;
   }
+
   .intro__slogan {
     padding: 120px 30px 30px;
   }
