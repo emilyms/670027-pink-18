@@ -1,9 +1,13 @@
 .download-app {
+  text-align: center;
+
   background-color: $dark-bg;
 }
 
 .download-app__wrapper {
+  margin: 0 auto;
   padding: 30px 20px;
+  width: 280px;
 }
 
 .download-app__info {
@@ -12,4 +16,26 @@
   font-size: 14px;
   line-height: 24px;
   color: white;
+}
+
+@media (min-width: $tablet-width) {
+  .download-app {
+    width: 620px;
+    margin: -430px auto 175px;
+
+    background-color: transparent;
+  }
+  .download-app__wrapper {
+    width: 300px;
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .download-app {
+    width: 940px;
+  }
+  .download-app__wrapper {
+    padding: 30px 0;
+  }
 }
