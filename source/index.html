@@ -109,12 +109,13 @@
               <blockquote class="reviews__item slider__item">
                 <cite class="reviews__user-name">Николай Петров</cite>
                 <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+                <span class="reviews__user-info">25 лет, водитель трамвая</span>
               </blockquote>
-              <blockquote class="reviews__item slider__item">
+              <blockquote class="reviews__item slider__item visually-hidden">
                 <cite class="reviews__user-name"></cite>
                 <p class="reviews__text"></p>
               </blockquote>
-              <blockquote class="reviews__item slider__item">
+              <blockquote class="reviews__item slider__item visually-hidden">
                 <cite class="reviews__user-name"></cite>
                 <p class="reviews__text"></p>
               </blockquote>
@@ -128,36 +129,64 @@
       </section>
       <section class="plans">
         <h2 class="visually-hidden">Тарифы</h2>
-        <table class="plans__list">
-          <thead>
-            <th class="plans__title">
-              Стандарт <br>
-              <span class="plans__price">3,99 USD</span>
-            </th>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="plans__field">
-                Розовый фильтр
-              </td>
-            </tr>
-            <tr>
-              <td class="plans__field">
-                Смайлики
-              </td>
-            </tr>
-            <tr>
-              <td class="plans__field">
-                Комментарии
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <p class="plans__toggles slider__toggles">
-          <button class="slider__toggle" type="button"></button>
-          <button class="slider__toggle" type="button"></button>
-          <button class="slider__toggle" type="button"></button>
-        </p>
+        <div class="plans__wrapper">
+          <table class="plans__list">
+            <thead>
+              <th class="plans__title">
+                База <br>
+                <span class="plans__price">3,99 USD</span>
+              </th>
+              <th class="plans__title">
+                Стандарт <br>
+                <span class="plans__price">3,99 USD</span>
+              </th>
+              <th class="plans__title">
+                Анлим <br>
+                <span class="plans__price">3,99 USD</span>
+              </th>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="plans__field">
+                  Розовый фильтр
+                </td>
+                <td class="plans__field">
+                  Розовый фильтр
+                </td>
+                <td class="plans__field">
+                  Розовый фильтр
+                </td>
+              </tr>
+              <tr>
+                <td class="plans__field">
+                  Смайлики
+                </td>
+                <td class="plans__field">
+                  Смайлики
+                </td>
+                <td class="plans__field">
+                  Смайлики
+                </td>
+              </tr>
+              <tr>
+                <td class="plans__field">
+                  Комментарии
+                </td>
+                <td class="plans__field">
+                  Комментарии
+                </td>
+                <td class="plans__field">
+                  Комментарии
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="plans__toggles slider__toggles">
+            <button class="slider__toggle" type="button"></button>
+            <button class="slider__toggle" type="button"></button>
+            <button class="slider__toggle" type="button"></button>
+          </p>
+        </div>
       </section>
       <section class="contacts">
         <h2 class="visually-hidden">Контакты</h2>
