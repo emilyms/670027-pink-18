@@ -44,3 +44,21 @@
   text-decoration: none;
   color: $pink-color;
 }
+
+@media (min-width: $tablet-width) {
+  .contacts__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts__item:nth-child(2) {
+    order: 3;
+  }
+
+  .contacts__item:nth-child(3) {
+    order: 2;
+  }
+}

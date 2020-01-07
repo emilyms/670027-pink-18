@@ -1,6 +1,5 @@
 .editor {
   text-align: center;
-  background-color: $grey-bg;
 }
 
 .editor__intro {
@@ -17,6 +16,10 @@
 }
 
 .editor__wrapper {
+  background-color: $grey-bg;
+}
+
+.editor__tools {
   padding: 20px;
 }
 
@@ -29,7 +32,7 @@
   margin: auto;
 }
 
-.editor__tools {
+.editor__tools-list {
   padding: 0 30px 20px;
 }
 
@@ -45,4 +48,20 @@
 .editor__control-btn {
   display: block;
   margin: 5px auto;
+}
+
+@media (min-width: $tablet-width) {
+  .editor__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .editor__wrapper {
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+  }
 }
