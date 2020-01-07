@@ -191,6 +191,11 @@
     width: 500px;
     margin: 40px auto;
   }
+
+  .form__info {
+    display: inline-block;
+    margin-left: auto;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -199,6 +204,10 @@
     padding: 0 10px;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .form__group {
+    width: 100%;
   }
 
   .form__group-wrapper {
@@ -219,9 +228,21 @@
   .form__list {
     display: flex;
 
+    &--row {
+      display: table;
+
+      & .form__item {
+        display: table-cell;
+      }
+    }
+
     &--column {
       flex-direction: column;
     }
+  }
+
+  .form__item {
+    padding: 25px;
   }
 
   .form__label-wrapper {

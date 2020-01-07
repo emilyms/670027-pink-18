@@ -1,8 +1,8 @@
 .contest__intro {
   display: block;
+  width: 280px;
+  margin: 0 auto;
   padding: 30px 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
 
   font-family: $main-font;
   font-weight: normal;
@@ -10,4 +10,17 @@
   line-height: 30px;
   text-align: center;
   color: $blue-color;
+}
+
+@media (min-width: $tablet-width) {
+  .contest__intro {
+    width: 490px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contest__intro {
+    width: 750px;
+    padding: 30px;
+  }
 }
