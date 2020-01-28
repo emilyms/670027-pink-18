@@ -7,37 +7,41 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
-    <header class="page-header">
-      <div class="page-header__wrapper">
-        <nav class="main-nav">
+    <header class="page-header page-header--nojs">
+      <section class="page-header__navigation">
+        <div class="page-header__wrapper">
           <a class="logo">
             <img src="https://via.placeholder.com/80x30" width="80" height="30" alt="Pink">
           </a>
-          <button class="main-nav__toggle" type="button"></button>
-          <div class="main-nav__wrapper">
-            <ul class="main-nav__list site-menu">
-              <li class="site-menu__item site-menu__item--active">
-                <a>Главная</a>
-              </li>
-              <li class="site-menu__item">
-                <a href="photo.html">Фотографии</a>
-              </li>
-              <li class="site-menu__item">
-                <a href="form.html">Конкурс</a>
-              </li>
-              <li class="site-menu__item">
-                <a href="https://htmlacademy.ru/">HTML Academy</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      <div class="intro intro--index">
+          <nav class="main-nav main-nav--open main-nav--nojs">
+            <button class="main-nav__toggle" type="button"></button>
+            <div class="main-nav__wrapper">
+              <ul class="main-nav__list site-menu">
+                <li class="site-menu__item">
+                </li>
+                <li class="site-menu__item">
+                  <a class="site-menu__link site-menu__link--active">Главная</a>
+                </li>
+                <li class="site-menu__item">
+                  <a class="site-menu__link" href="photo.html">Фотографии</a>
+                </li>
+                <li class="site-menu__item">
+                  <a class="site-menu__link" href="form.html">Конкурс</a>
+                </li>
+                <li class="site-menu__item">
+                  <a class="site-menu__link" href="https://htmlacademy.ru/">HTML Academy</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <section class="intro intro--index">
         <h1 class="visually-hidden">Приложение Pink</h1>
         <div class="intro__wrapper">
           <b class="intro__slogan">Взгляните на жизнь иначе!</b>
         </div>
-      </div>
+      </section>
     </header>
 
     <main class="page-main">
@@ -67,9 +71,10 @@
       </section>
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества приложения Pink</h2>
-        <b class="advantages__slogan">
-          Устали от серости мегаполиса?  Нам есть, что вам  предложить!
-        </b>
+        <div class="advantages__slogan-wrapper">
+          <b class="advantages__slogan">Устали от серости мегаполиса?</b>
+          <b class="advantages__slogan advantages__slogan--narrow">Нам есть, что вам  предложить!</b>
+        </div>
         <div class="advantages__wrapper">
           <ul class="advantages__list">
             <li class="advantages__item">

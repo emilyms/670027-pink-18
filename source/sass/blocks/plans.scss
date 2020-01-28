@@ -11,7 +11,7 @@
   margin: 0 auto;
   padding: 40px 20px;
 
-  transform: translateX(-280px);
+  transform: translateX(-180px);
 }
 
 .plans__list thead {
@@ -55,6 +55,10 @@
     width: 620px;
 
     transform: none;
+  }
+
+  .plans__toggles {
+    display: none;
   }
 }
 

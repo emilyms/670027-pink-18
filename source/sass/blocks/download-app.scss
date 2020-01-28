@@ -30,6 +30,14 @@
     width: 300px;
     margin: 0;
   }
+
+  .download-app__info {
+    font-size: 18px;
+  }
+
+  .download-app__download-btn {
+    width: 300px;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -39,5 +47,9 @@
 
   .download-app__wrapper {
     padding: 30px 0;
+  }
+
+  .download-app__download-btn {
+    font-size: 21px;
   }
 }

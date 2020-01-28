@@ -1,6 +1,13 @@
 .btn {
+  width: 280px;
+  padding: 20px 10px;
   font-family: $bold-font;
   font-size: 18px;
   line-height: 18px;
   font-weight: bold;
+  color: white;
+
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 30px;
 }
